@@ -1,0 +1,35 @@
+.hero__container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+@media (min-width: 576px) {
+  .hero__container {
+    max-width: 864px;
+  }
+}
+@media (min-width: 992px) {
+  .hero__container {
+    max-width: 1076px;
+  }
+}
+@media (min-width: 1200px) {
+  .hero__container {
+    max-width: 1240px;
+  }
+}
+
+.hero-row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+  align-items: center;
+  row-gap: 23px;
+  justify-content: center;
+  text-align: center;
+}

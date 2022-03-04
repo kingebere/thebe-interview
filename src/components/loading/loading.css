@@ -1,0 +1,5 @@
+.loading-text {
+  font-size: var(--secondary-text);
+  font-family: var(--general-font);
+  font-weight: var(--bold-font-weight);
+}

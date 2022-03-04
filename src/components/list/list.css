@@ -1,0 +1,23 @@
+.hero-column {
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.hero-column-50 {
+  max-width: 100%;
+  flex: 0 0 100%;
+}
+@media (min-width: 768px) {
+  .hero-column-50 {
+    max-width: 50%;
+    flex: 0 0 50%;
+  }
+}
+
+@media (min-width: 992px) {
+  .hero-column-50 {
+    max-width: 25%;
+    flex: 0 0 25%;
+  }
+}
