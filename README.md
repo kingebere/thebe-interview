@@ -22,3 +22,15 @@ for test , run npm test
 
 
 ```
+```
+
+## Features
+
+- Infinite scrolling of images
+- Fetch data using unsplash API
+- View Images in carousel
+- Navigation buttons 
+- onChange Data fetch trigger
+
+
+```
